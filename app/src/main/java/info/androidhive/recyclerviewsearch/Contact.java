@@ -6,7 +6,7 @@ package info.androidhive.recyclerviewsearch;
 
 public class Contact {
     String koreanName;
-    String image;
+    String wine21Code;
     String englishName;
 
     public Contact() {
@@ -17,7 +17,7 @@ public class Contact {
     }
 
     public String getImage() {
-        return image;
+        return "https://s3.ap-northeast-2.amazonaws.com/vin-image/"+wine21Code+".jpg";
     }
 
     public String getPhone() {
