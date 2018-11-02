@@ -17,7 +17,7 @@ public class Contact {
     }
 
     public String getImage() {
-        return image;
+        return "https://s3.ap-northeast-2.amazonaws.com/vin-image/"+image+".jpg";
     }
 
     public String getPhone() {
