@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements ContactsAdapter.C
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "http://viniswine.tk/wineCodeAndNames";
+    private static final String URL = "http://viniswine.tk/api/wine/code_and_names";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
